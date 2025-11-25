@@ -19,7 +19,7 @@
 #print(15>4 or 15 <9 and 12 > 3 or 0<19)
 
 
-#1)and და   or მაგალითი არის true and false
+#1)and და   or მაგალითი არის true and false მაგ 15>4
 
 #2)and და or -ის მაგალითია
 
