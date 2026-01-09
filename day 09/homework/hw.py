@@ -19,4 +19,3 @@ while 50 > d :
     print(d)
     d = d + 3
 #5)sololeanr while loop ებამდე
-4
