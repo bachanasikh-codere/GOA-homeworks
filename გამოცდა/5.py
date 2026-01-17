@@ -11,19 +11,19 @@ for i in range(0, 10, 4 ):
 print(list[0])
 
 
-# if i > list :
-#         print( str(i) +  str(list) )
+if i > list :
+    print( str(i) +  str(list) )
 
-# elif  i == 15 :
-#     print( str(i) +  str(list))
-# else:
-#     print( str(list) +  str(i) )
-#     print(i+list)
-#     print(i+list)
-
-
-# result = max(list)
+elif  i == 15 :
+    print( str(i) +  str(list))
+else:
+    print( str(list) +  str(i) )
+    print(i+list)
+    print(i+list)
 
 
+result = max(list)
 
-#print(result)
+
+
+print(result)
