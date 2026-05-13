@@ -1,0 +1,85 @@
+<!-- 2) კომენტარების სახით ახსენით name, value და selected ატრიბუტები -->
+
+<!-- name:
+name გამოიყენება input-ის იდენტიფიკაციისთვის,
+როცა მონაცემი იგზავნება სერვერზე. -->
+
+<!-- value:
+value არის ის მნიშვნელობა, რაც იგზავნება ან ინახება input-ში.
+ხშირად გამოიყენება submit, radio და checkbox-ებში. -->
+
+<!-- selected:
+selected გამოიყენება dropdown (select) მენიუში,
+რომელ ვარიანტს ვაჩვენებთ წინასწარ არჩეულად. -->
+
+
+
+<!-- 3) ვებ-საიტი ნებისმიერი თემატიკით -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#form">Form</a>
+    </nav>
+
+    <hr>
+
+    <section id="home">
+        <h1>Welcome</h1>
+        <p>This is my website about programming.</p>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am learning <b>HTML</b>, <i>CSS</i> and <u>Python</u>.</p>
+
+        <img src="https://via.placeholder.com/250" alt="image" width="250">
+    </section>
+
+    <hr>
+
+    <section id="form">
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" name="username" placeholder="Enter name">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <label>Country:</label>
+            <select name="country">
+                <option value="georgia">Georgia</option>
+                <option value="usa" selected>USA</option>
+                <option value="uk">UK</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Send">
+
+        </form>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!-- 
+2) კომენტარების სახით ახსენით რაში ვიყენებთ Attributes-ს
+
+Attributes გამოიყენება HTML თეგებისთვის დამატებითი ინფორმაციის მისაცემად.
+
+href
+- გამოიყენება <a> თეგში
+- მიუთითებს ლინკის მისამართს
+- Required (აუცილებელი)
+
+src
+- გამოიყენება <img> თეგში
+- მიუთითებს სურათის მისამართს
+- Required
+
+alt
+- გამოიყენება <img> თეგში
+- აღწერს სურათს
+- Optional (არასავალდებულო)
+
+width
+- ელემენტის სიგანე
+- Optional
+
+height
+- ელემენტის სიმაღლე
+- Optional
+
+target
+- განსაზღვრავს სად გაიხსნას ლინკი
+- Optional
+-->
+
+
+
+<!-- 
+3) განსხვავება single-page და multi-page ვებ-საიტებს შორის
+
+Single-page:
+- მთელი ინფორმაცია ერთ გვერდზეა
+- ნავიგაცია ხდება სექციებს შორის
+
+Multi-page:
+- ინფორმაცია რამდენიმე HTML ფაილშია განაწილებული
+- ნავიგაცია ხდება გვერდებს შორის
+-->
+
+
+
+<!-- 
+4) Single-page website
+5) Multi-page website
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ჩემი ვებ-საიტი</title>
+</head>
+
+<body>
+
+    <!-- ნავიგაცია -->
+    <nav>
+        <a href="#home">მთავარი</a> |
+        <a href="#about">ჩემს შესახებ</a> |
+        <a href="#cars">მანქანები</a> |
+        <a href="contact.html">კონტაქტი</a>
+    </nav>
+
+    <hr>
+
+    <!-- მთავარი -->
+    <section id="home">
+
+        <h1>მოგესალმებით ჩემს ვებ-საიტზე</h1>
+
+        <p>
+            ეს არის <b>single-page</b> და
+            <b>multi-page</b> ვებ-საიტის მაგალითი.
+        </p>
+
+        <img src="https://via.placeholder.com/300"
+             alt="მთავარი ფოტო"
+             width="300">
+
+    </section>
+
+    <hr>
+
+    <!-- ჩემს შესახებ -->
+    <section id="about">
+
+        <h2>ჩემს შესახებ</h2>
+
+        <p>
+            მე ვსწავლობ <i>HTML-ს</i> და
+            მინდა გავხდე <u>ვებ დეველოპერი</u>.
+        </p>
+
+        <button>გაიგე მეტი</button>
+
+    </section>
+
+    <hr>
+
+    <!-- მანქანები -->
+    <section id="cars">
+
+        <h2>ჩემი საყვარელი მანქანები</h2>
+
+        <ul>
+            <li>BMW</li>
+            <li>Mercedes</li>
+            <li>Audi</li>
+        </ul>
+
+        <ol>
+            <li>BMW M4</li>
+            <li>Mercedes AMG</li>
+            <li>Audi RS7</li>
+        </ol>
+
+        <img src="https://via.placeholder.com/250"
+             alt="მანქანის ფოტო"
+             width="250">
+
+    </section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>კონტაქტი</title>
+</head>
+
+<body>
+
+    <!-- ნავიგაცია -->
+    <nav>
+        <a href="index.html">მთავარი</a>
+    </nav>
+
+    <hr>
+
+    <h1>კონტაქტი</h1>
+
+    <p>Email: example@gmail.com</p>
+
+    <p>Facebook: MyPage</p>
+
+    <button>დაგვიკავშირდი</button>
+
+</body>
+</html>

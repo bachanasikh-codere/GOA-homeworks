@@ -1,0 +1,195 @@
+<!-- 2) style ატრიბუტი
+
+style ატრიბუტი გამოიყენება HTML ელემენტში, რათა პირდაპირ შევუცვალოთ სტილი:
+- ტექსტის ფერი (color)
+- ფონური ფერი (background-color)
+- ზომა (font-size)
+- გასწორება (text-align) და სხვა
+გამოყენება ხდება inline ფორმით ელემენტის დატეგვაში:
+<p style="color: red; font-size: 18px;">Hello</p>
+-->
+
+<!-- 3) style ატრიბუტის ზოგადი მნიშვნელობები -->
+
+<!-- color: ტექსტის ფერი
+<p style="color: blue;">Hello</p> -->
+
+<!-- background-color: ელემენტის უკანა ფონური ფერი
+<p style="background-color: lightgray;">Hello</p> -->
+
+<!-- font-size: ტექსტის ზომა
+<p style="font-size: 20px;">Hello</p> -->
+
+<!-- text-align: გასწორება (left, center, right, justify)
+<p style="text-align: center;">Hello</p> -->
+
+<!-- font-weight: ტექსტის სიგძიმე (normal, bold)
+<p style="font-weight: bold;">Hello</p> -->
+
+<!-- font-style: ტექსტის სტილი (normal, italic)
+<p style="font-style: italic;">Hello</p> -->
+
+<!-- padding: ელემენტის შიდა სივრცე
+<p style="padding: 10px;">Hello</p> -->
+
+<!-- margin: ელემენტის გარე სივრცე
+<p style="margin: 10px;">Hello</p> -->
+
+<!-- border: ელემენტის გარშემო საზღვარი
+<p style="border: 1px solid black;">Hello</p> -->
+
+
+
+<!-- 4) საბაზისო სტრუქტურა -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Page Header</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Section Title</h2>
+            <p>Section content...</p>
+        </section>
+
+        <article>
+            <h2>Article Title</h2>
+            <p>Article content...</p>
+        </article>
+
+        <aside>
+            <p>Side information or related content</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2026 Example Footer</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+<!-- 5) მრავალგვერდიანი საიტის მაგალითი -->
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Multi-Page Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Home Page</h2>
+            <p style="color: blue; background-color: lightyellow; font-size: 18px; padding: 10px;">
+                This is the home page of the website. Explore different sections using the menu.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Story</h2>
+            <p style="color: green; background-color: #f0f8ff; font-size: 18px; padding: 10px;">
+                This page describes the purpose of our website and what we aim to achieve.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p style="color: red; background-color: #ffe4e1; font-size: 18px; padding: 10px;">
+                You can contact us via email or phone. We will respond promptly.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+
+</html>
