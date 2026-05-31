@@ -1,0 +1,185 @@
+<!-- 1. შექმენი HTML ფაილი, სადაც იქნება <h1> სათაური. გამოიყენე internal CSS და:
+- ტექსტის ფერი გახადე ლურჯი
+- ზომა იყოს 40px
+- ტექსტი განალაგე ცენტრში
+
+2. შექმენი HTML ფაილი, სადაც იქნება 3 პარაგრაფი. გამოიყენე internal CSS და:
+- ყველა პარაგრაფს მიეცი მწვანე ტექსტის ფერი
+- უკანა ფონი იყოს შავი
+- ტექსტი იყოს მარჯვნივ განლაგებული
+
+3. შექმენი HTML ფაილი და დაამატე:
+- <h1>
+- <p>
+- <button>
+
+გამოიყენე internal CSS და თითოეულ ელემენტს განსხვავებული:
+- ტექსტის ფერი
+- ფონური ფერი
+- ტექსტის ზომა
+
+4. შექმენი HTML ფაილი, სადაც იქნება 2 სათაური და 2 პარაგრაფი. გამოიყენე external CSS და:
+- ყველა სათაური იყოს წითელი
+- ყველა პარაგრაფი იყოს ყვითელი ფონით
+- ტექსტი იყოს ცენტრში
+
+5. შექმენი ცალკე style.css ფაილი და დააკავშირე HTML ფაილთან. შემდეგ:
+- <body> ელემენტს მიეცი ნაცრისფერი ფონი
+- <h1> ელემენტს თეთრი ტექსტი
+- <p> ელემენტს 25px ზომა
+
+6. შექმენი HTML ფაილი, სადაც იქნება:
+- 1 h1
+- 2 p
+- 1 button
+
+გამოიყენე external CSS და:
+- ყველა ტექსტი იყოს მარცხნივ
+- თითოეულ ელემენტს ჰქონდეს განსხვავებული ფერი
+
+7. შექმენი HTML ფაილი internal CSS-ით, სადაც:
+- <h1> იქნება მწვანე
+- <p> იქნება ლურჯი
+- ორივე ელემენტი იყოს center-ზე
+- h1-ის ზომა იყოს 50px
+
+8. შექმენი external CSS ფაილი და:
+- ყველა <p> ელემენტს მიეცი შავი ფონი
+- ტექსტი იყოს თეთრი
+- ტექსტის ზომა იყოს 30px
+
+9. შექმენი HTML ფაილი, სადაც იქნება 4 სხვადასხვა ტექსტი. გამოიყენე internal CSS და:
+- თითოეულ ტექსტს განსხვავებული text-align
+- განსხვავებული ფერი
+- განსხვავებული ზომა
+
+10. შექმენი HTML და CSS ფაილები. გამოიყენე external CSS და:
+- <h1> იყოს ცენტრში და ლურჯი
+- <p> იყოს მარჯვნივ და წითელი
+- body-ს ჰქონდეს ღია ყვითელი ფონი -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS </title>
+
+    <style>
+        /* 1 */
+        h1 {
+            color: blue;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        /* 2 */
+        p {
+            color: green;
+            background-color: black;
+            text-align: right;
+        }
+
+        /* 3 */
+        h1 {
+            color: red;
+            background-color: yellow;
+            font-size: 45px;
+        }
+
+        p {
+            color: white;
+            background-color: green;
+            font-size: 25px;
+        }
+
+        button {
+            color: black;
+            background-color: lightblue;
+            font-size: 20px;
+        }
+
+        /* 7 */
+        h1 {
+            color: green;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        p {
+            color: blue;
+            text-align: center;
+        }
+
+        /* 9 */
+        .ს {
+            text-align: left;
+            color: red;
+            font-size: 20px;
+        }
+
+        .ს {
+            text-align: center;
+            color: blue;
+            font-size: 25px;
+        }
+
+        .ს {
+            text-align: right;
+            color: green;
+            font-size: 30px;
+        }
+
+        .ს {
+            text-align: justify;
+            color: purple;
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1 -->
+    <div class="task1">
+        <h1>aaaaaaa</h1>
+    </div>
+
+    <hr>
+
+    <!-- 2 -->
+    <div class="task2">
+        <p>1-ლი პარაგრაფი</p>
+        <p>მე-2 პარაგრაფი</p>
+        <p>მე-3 პარაგრაფი</p>
+    </div>
+
+    <hr>
+
+    <!-- 3 -->
+    <div class="task3">
+        <h1>ააა</h1>
+        <p>ე</p>
+        <button>დამაჭირე მაააალეეეე</button>
+    </div>
+
+    <hr>
+
+    <!-- 7 -->
+    <div class="task7">
+        <h1>აააა</h1>
+        <p>ეეეეე</p>
+    </div>
+
+    <hr>
+
+    <!-- 9 -->
+    <div class="task9">
+        <p class="text1">ტექსტი</p>
+        <p class="text2">ტექსტი</p>
+        <p class="text3">ტექსტი</p>
+        <p class="text4">ტექსტი</p>
+    </div>
+
+</body>
+
+</html>

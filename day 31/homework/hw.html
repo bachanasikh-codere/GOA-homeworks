@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML CSS</title>
+
+    <style>
+        .internal-p {
+            text-align: right;
+            background-color: yellow;
+        }
+
+        .my-div {
+            background-color: gray;
+        }
+        .my-div h1 {
+            font-size: 67px;
+            text-align: right;
+        }
+        .my-div p {
+            color: green;
+            background-color: brown;
+        }
+
+        .center-red {
+            text-align: center;
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1) p თეგი -->
+<p style="background-color: black; color: red;">
+</p>
+
+<!-- 2) h1 თეგი -->
+<h1 style="text-align: center; font-size: 25px;">
+   
+</h1>
+
+<!-- 4) 3 p internal CSS -->
+<p class="internal-p"></p>
+<p class="internal-p"></p>
+<p class="internal-p"></p>
+
+<!-- 5) div + h1 + p external CSS -->
+<div class="my-div">
+    <h1>დ</h1>
+    <p>z/p>
+</div>
+
+<!-- 6) Input fields -->
+<input type="text" placeholder="სახელი" style="background-color: black; color: white;">
+<input type="text" placeholder="გვარი" style="background-color: black; color: white;">
+
+<!-- 7) h1-h6 inline CSS -->
+<h1 style="color: red; background-color: yellow; font-size: 40px;">H1</h1>
+<h2 style="color: blue; background-color: orange; font-size: 35px;">H2</h2>
+<h3 style="color: green; background-color: pink; font-size: 30px;">H3</h3>
+<h4 style="color: purple; background-color: lightblue; font-size: 25px;">H4</h4>
+<h5 style="color: brown; background-color: lightgreen; font-size: 20px;">H5</h5>
+<h6 style="color: black; background-color: gray; font-size: 15px;">H6</h6>
+
+<!-- 8) div: h1 + p -->
+<div style="background-color: gray;">
+    <h1 style="color: pink; background-color: green; text-align: center;">c h1</h1>
+    <p style="font-size: 30px; text-align: center;">c პარა</p>
+</div>
+
+<!-- 9) button + p external CSS -->
+<div class="center-red">
+    <button></button>
+    <p>წ</p>
+</div>
+
+</body>
+</html>

@@ -121,19 +121,44 @@
 
 
 
-n = int(input("შემოიტანეთ მასივის სიგრძე :"))
-a=[]
+# n = int(input("შემოიტანეთ მასივის სიგრძე :"))
+# a=[]
 
-a.append(int(input("შემოიტანე A მასივის " + " ელემენტი,  ციფრების სახით: ")))
-b = max(a)
-for i in range(n) :
-    if b == n :
-        print(b) and print(n)
-
-
+# a.append(int(input("შემოიტანე A მასივის " + " ელემენტი,  ციფრების სახით: ")))
+# b = max(a)
+# for i in range(n) :
+#     if b == n :
+#         print(b) and print(n)
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n = int(input("შემოიტანეთ მასივის სიგრძე "))
+list[]
+for i in range (1, n +1 ):
+    list.append(    )
