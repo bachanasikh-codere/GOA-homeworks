@@ -1,0 +1,31 @@
+        /* 0 */
+        .div-black {
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+        }
+
+        /* 1 */
+        .btn-red {
+            border: 3px dashed red;
+        }
+
+        /* 2 */
+        .p-blue {
+
+
+            border: 4px dotted blue;
+        }
+
+        /* 3 */
+        .div-green {
+            border: 5px double green;
+            width: 200px;
+            height: 100px;
+        }
+
+        /* 4 */
+        .img-purple {
+            border: 2px solid purple;
+            border-radius: 15px;
+        }
