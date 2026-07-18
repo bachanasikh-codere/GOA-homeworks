@@ -1,0 +1,22 @@
+p {
+    background-color: black;
+    color: white;
+}
+
+p:nth-child(odd) {
+    height: 300px;
+}
+
+p:nth-child(even) {
+    height: 250px;
+}
+
+.color1 {
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+
+.color2 {
+    background-color: #FF5733;
+    color: white;
+}
