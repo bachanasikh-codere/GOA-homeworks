@@ -1,0 +1,43 @@
+
+
+h1 {
+    text-decoration: underline solid navy;
+}
+
+h2 {
+    text-decoration: line-through dashed crimson;
+}
+
+h3 {
+    text-decoration: overline wavy darkgreen;
+}
+
+p {
+    text-decoration: underline dotted teal 3px;
+}
+
+a {
+    text-decoration: underline solid coral 5px;
+}
+
+
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.span-upper {
+    text-transform: uppercase;
+}
+
+.link-lower {
+    text-transform: lowercase;
+}
