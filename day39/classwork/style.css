@@ -1,0 +1,107 @@
+/* Text Decoration */
+
+.d1{
+    text-decoration: underline solid blue;
+}
+
+.d2{
+    text-decoration: line-through dashed red;
+}
+
+.d3{
+    text-decoration: overline wavy green;
+}
+
+.d4{
+    text-decoration: underline dotted purple 3px;
+}
+
+.d5{
+    text-decoration: underline solid orange 5px;
+}
+
+.d6{
+    text-decoration: line-through wavy rgb(255,0,255) 5px;
+}
+
+.d7{
+    text-decoration: overline dashed #00BFFF 4px;
+}
+
+.d8{
+    text-decoration: underline dotted brown 6px;
+}
+
+.d9{
+    text-decoration: line-through solid black 2px;
+}
+
+.d10a{
+    text-decoration: underline dashed red;
+}
+
+.d10b{
+    text-decoration: line-through wavy blue;
+}
+
+.d10c{
+    text-decoration: overline dotted green 4px;
+}
+
+/* Text Transform */
+
+.t1{
+    text-transform: uppercase;
+}
+
+.t2{
+    text-transform: lowercase;
+}
+
+.t3{
+    text-transform: capitalize;
+}
+
+.t4{
+    text-transform: uppercase;
+}
+
+.t5{
+    text-transform: lowercase;
+}
+
+.t6{
+    text-transform: uppercase;
+}
+
+.t7{
+    text-transform: lowercase;
+}
+
+.t8{
+    text-transform: capitalize;
+}
+
+.t9{
+    text-transform: capitalize;
+}
+
+.t10{
+    text-transform: uppercase;
+}
+
+.list{
+    text-transform: capitalize;
+}
+
+.last1{
+    text-transform: uppercase;
+}
+
+.last2{
+    text-transform: lowercase;
+}
+
+.last3{
+    text-transform: capitalize;
+}
