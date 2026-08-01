@@ -1,0 +1,43 @@
+/* .roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+} */
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+
+a:visited {
+    color: purple;
+}
+
+
+a {
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+    text-align: center;
+    border:5px  we red ;
+    width: 7px;
+    height: 10px;
+    width: 50%;
+}
+
+
+  
+h1{
+    color: rgb(68, 107, 107);
+    background-color: aliceblue;
+    font-size: 30px
+}
+
+    
+.red{
+    background-color: brown;
+    color: #fffb00;
+}
+#d{
+    background-color: brown;
+    color: #fffb00;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+buton:hover{
+    background-color: bisque;
+}
+ button:active {
+    background-color: bisque;
+ }
+

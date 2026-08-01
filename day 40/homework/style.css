@@ -1,0 +1,31 @@
+/* 2 */
+.archivo-black-regular{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 3 */
+.yuyu-short-regular{
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 4 */
+.share-tech-mono-regular{
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 5 */
+button:hover{
+    font-family: "Bree Serif", serif;
+    background-color: yellow;
+}
+
+/* 6 */
+a:visited{
+    color: red;
+}
