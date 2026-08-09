@@ -32,12 +32,12 @@
 # for i in range (n - 1, -1, -1) :
 #     print(b[i])
 
-# a = int(input("დაწერე რაიმე რიცხვი"))
-# b = 0
-# while a > 0 :
-#     a = a // 10
-#     b = b + 1
-# print(b)
+a = int(input("დაწერე რაიმე რიცხვი"))
+b = 0
+while a > 0 :
+    a = a // 10
+    b = b + 1
+print(b)
 
 # n = int(input("შემოიტანე მასივის სიგრძე: "))
 # a = [] 
