@@ -1,4 +1,4 @@
-/* .roboto {
+.roboto {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
 }
@@ -21,7 +21,7 @@
 .playfair {
     font-family: 'Playfair Display', serif;
     font-size: 22px;
-} */
+}
 
 a:hover {
     color: red;

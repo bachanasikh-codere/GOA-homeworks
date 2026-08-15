@@ -1,0 +1,35 @@
+.games {
+    list-style-type: square;
+}
+
+.browsers {
+    list-style-type: lower-alpha;
+}
+
+.activities {
+    list-style-type: decimal-leading-zero;
+}
+
+.tools {
+    list-style-type: circle;
+}
+
+.books {
+    list-style-type: lower-roman;
+}
+
+.countries {
+    list-style-type: upper-latin;
+}
+
+.food {
+    list-style-type: disc;
+}
+
+.sports {
+    list-style-type: upper-roman;
+}
+
+.games2 {
+    list-style-type: lower-alpha;
+}
