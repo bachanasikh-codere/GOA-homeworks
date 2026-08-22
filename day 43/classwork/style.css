@@ -1,0 +1,39 @@
+.div1 {
+    padding: 20px;
+}
+
+.div2 {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+
+.box {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.different-margin {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.center-box {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: lightcoral;
+}
+

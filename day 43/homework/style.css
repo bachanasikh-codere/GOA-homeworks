@@ -1,0 +1,81 @@
+
+
+/* 1 */
+.padding1 {
+    padding: 50px 20px;
+    background-color: lightblue;
+}
+
+/* 2 */
+.padding-button {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* 3 */
+.padding3 {
+    padding: 30px;
+    background-color: lightgray;
+}
+
+/* 4 */
+.box1 {
+    padding: 10px;
+    background-color: pink;
+}
+
+.box2 {
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.box3 {
+    padding: 40px;
+    background-color: lightyellow;
+}
+
+/* 5 */
+.card {
+    background-color: lightcoral;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+
+/* ================= MARGIN ================= */
+
+/* 1 */
+.margin-box {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+/* 2 */
+.margin-title {
+    margin-bottom: 20px;
+}
+
+/* 3 */
+.margin-top {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+/* 4 */
+.margin-button {
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+
+/* 5 */
+.center-card {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
