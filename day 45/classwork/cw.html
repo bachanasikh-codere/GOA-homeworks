@@ -1,0 +1,178 @@
+<!-- 1. შექმენი 600px × 500px ზომის parent ელემენტი და მასში მოათავსე 6 child ელემენტი. ელემენტები განალაგე ვერტიკალურად და თუ ყველა ელემენტი ერთ ხაზზე ვერ დაეტევა, გადაიტანე ისინი შემდეგ ხაზზე.
+
+2. შექმენი 700px × 400px ზომის parent ელემენტი და მასში მოათავსე 8 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად საპირისპირო მიმართულებით და საჭიროების შემთხვევაში გადაიტანე შემდეგ ხაზზე.
+
+3. შექმენი 500px × 600px ზომის parent ელემენტი და მასში მოათავსე 7 child ელემენტი. ელემენტები განალაგე ვერტიკალურად საპირისპირო მიმართულებით და არ მისცე უფლება, რომ parent-ის საზღვრებს გასცდნენ.
+
+4. შექმენი 800px × 500px ზომის parent ელემენტი და მასში მოათავსე 10 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად და როცა სივრცე აღარ იქნება, გადაიტანე შემდეგ ხაზზე. მთავარი ღერძის მიხედვით ელემენტები თანაბრად გადაანაწილე.
+
+5. შექმენი 600px × 600px ზომის parent ელემენტი და მასში მოათავსე 9 child ელემენტი. ელემენტები განალაგე ვერტიკალურად, საჭიროების შემთხვევაში გადაიტანე შემდეგ სვეტში და მეორე ღერძის მიხედვით ცენტრში მოათავსე. -->
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="parent parent1">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+    </div>
+
+    <div class="parent parent2">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>
+
+    <div class="parent parent3">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+    </div>
+
+    <div class="parent parent4">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+        <div class="child">10</div>
+    </div>
+
+    <div class="parent parent5">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+    </div>
+
+</body>
+</html>
+
+<!-- 1. შექმენი 700px × 500px ზომის parent ელემენტი და მასში მოათავსე 8 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად და როცა სივრცე აღარ იქნება, გადაიტანე შემდეგ ხაზზე. ელემენტები მთავარი ღერძის ბოლოსკენ განათავსე.
+
+2. შექმენი 500px × 600px ზომის parent ელემენტი და მასში მოათავსე 7 child ელემენტი. ელემენტები განალაგე ვერტიკალურად საპირისპირო მიმართულებით და საჭიროების შემთხვევაში გადაიტანე შემდეგ სვეტში. მეორე ღერძის მიხედვით ელემენტები ცენტრში განათავსე.
+
+3. შექმენი 800px × 400px ზომის parent ელემენტი და მასში მოათავსე 12 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად საპირისპირო მიმართულებით და როცა სივრცე აღარ იქნება, გადაიტანე შემდეგ ხაზზე. ელემენტებს შორის გააკეთე მაქსიმალური დაშორება.
+
+4. შექმენი 600px × 700px ზომის parent ელემენტი და მასში მოათავსე 10 child ელემენტი. ელემენტები განალაგე ვერტიკალურად და საჭიროების შემთხვევაში გადაიტანე შემდეგ სვეტში. ელემენტები მეორე ღერძის დასაწყისში განათავსე.
+
+5. შექმენი 700px × 600px ზომის parent ელემენტი და მასში მოათავსე 15 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად და საჭიროების შემთხვევაში გადაიტანე შემდეგ ხაზზე. ელემენტები ორივე ღ
+ერძის მიხედვით ცენტრში განალაგე. -->
+
+
+```html
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox დავალებები</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- დავალება 1 -->
+    <div class="parent1">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>
+
+    <!-- დავალება 2 -->
+    <div class="parent2">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+    </div>
+
+    <!-- დავალება 3 -->
+    <div class="parent3">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+        <div class="child">10</div>
+        <div class="child">11</div>
+        <div class="child">12</div>
+    </div>
+
+    <!-- დავალება 4 -->
+    <div class="parent4">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+        <div class="child">10</div>
+    </div>
+
+    <!-- დავალება 5 -->
+    <div class="parent5">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+        <div class="child">10</div>
+        <div class="child">11</div>
+        <div class="child">12</div>
+        <div class="child">13</div>
+        <div class="child">14</div>
+        <div class="child">15</div>
+    </div>
+
+</body>
+</html>
+```

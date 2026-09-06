@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.parent {
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.parent1 {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.parent1 .child {
+    background-color: lightblue;
+}
+
+.parent2 {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.parent2 .child {
+    background-color: lightgreen;
+}
+
+.parent3 {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.parent3 .child {
+    background-color: lightcoral;
+}
+
+.parent4 {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parent4 .child {
+    background-color: gold;
+}
+
+.parent5 {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.parent5 .child {
+    background-color: violet;
+}
+
+
+
+
+
+
+
+/*  1 */
+
+.parent1 {
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.parent1 .child {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+/*  2 */
+
+.parent2 {
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.parent2 .child {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+/*  3 */
+
+.parent3 {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parent3 .child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+
+/*  4 */
+
+.parent4 {
+    width: 600px;
+    height: 700px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.parent4 .child {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+
+/*  5 */
+
+.parent5 {
+    width: 700px;
+    height: 600px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent5 .child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
