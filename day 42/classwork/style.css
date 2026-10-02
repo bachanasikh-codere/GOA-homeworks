@@ -1,0 +1,39 @@
+.fruits {
+    list-style-type: square;
+}
+
+.animals {
+    list-style-type: circle;
+}
+
+.movies {
+    list-style-type: upper-roman;
+}
+
+.languages {
+    list-style-type: lower-alpha;
+}
+
+.cities {
+    list-style-type: decimal-leading-zero;
+}
+
+.sports {
+    list-style-type: disc;
+}
+
+.subjects {
+    list-style-type: georgian;
+}
+
+.technologies {
+    list-style-type: lower-greek;
+}
+
+.programming-technologies {
+    list-style-type: square;
+}
+
+.programming-languages {
+    list-style-type: upper-alpha;
+}
