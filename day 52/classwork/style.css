@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  width: 860px;
+  max-width: 100%;
+  min-height: 467px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.card {
+  flex: 1;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sedan {
+  background: #e88920;
+}
+
+.suv {
+  background: #006970;
+}
+
+.luxury {
+  background: #00413f;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+button {
+  margin-top: auto;
+  padding: 14px 30px;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  background: #f2f2f2;
+  color: #e88920;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.suv button {
+  color: #006970;
+}
+
+.luxury button {
+  color: #00413f;
+}
+
+button:hover {
+  background: transparent;
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  body {
+    padding: 25px;
+  }
+
+  .container {
+    flex-direction: column;
+    max-width: 330px;
+  }
+
+  .card {
+    min-height: 400px;
+    padding: 40px;
+  }
+}
