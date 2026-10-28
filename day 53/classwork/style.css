@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 1s;
+}
+
+.square1:hover {
+    background-color: green;
+    transform: translateX(100px) rotate(45deg);
+}
+
+.square2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.square2 span {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.square2:hover {
+    transform: scale(1.5);
+}
+
+.square2:hover span {
+    transform: rotate(45deg);
+}
+
+.square3 {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    transition: 1s;
+}
+
+.square3:hover {
+    transform: rotateX(180deg);
+}
+
+.square4 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    transition: 1s;
+}
+
+.square4:hover {
+    background-color: yellow;
+    transform: translate(100px, -50px) skew(20deg);
+}
