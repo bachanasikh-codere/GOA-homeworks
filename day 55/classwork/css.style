@@ -1,0 +1,149 @@
+
+
+.rotate-square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.color-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: purple;
+    }
+}
+
+
+
+.moving-square {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+    animation-name: moveSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveSquare {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+.scale-square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+    animation-name: scaleSquare;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scaleSquare {
+    0% {
+        width: 150px;
+        height: 150px;
+    }
+
+    50% {
+        width: 300px;
+        height: 300px;
+    }
+
+    100% {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
+.complex-square {
+    width: 150px;
+    height: 150px;
+
+    animation-name: complexAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes complexAnimation {
+    0% {
+        background-color: red;
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        background-color: yellow;
+        transform: translateX(0) rotate(90deg);
+    }
+
+    50% {
+        background-color: green;
+        transform: translateX(200px) rotate(180deg);
+    }
+
+    75% {
+        background-color: blue;
+        transform: translateX(200px) rotate(270deg);
+    }
+
+    100% {
+        background-color: red;
+        transform: translateX(0) rotate(360deg);
+    }
+}
